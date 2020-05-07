@@ -1,0 +1,23 @@
+{
+  "name": "coordinate-transform-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "coordcli": "./bin/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "commander": "^5.0.0",
+    "coordtransform": "^2.1.2",
+    "lodash": "^4.17.15",
+    "ol": "^4.6.5"
+  }
+}
